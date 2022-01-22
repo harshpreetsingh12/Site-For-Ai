@@ -1,0 +1,96 @@
+@media only screen and (min-device-width: 300px) and (max-width:929px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .firstsection{
+        height: 68vh;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 300px;
+      transition: all 0.8s ease-out;
+    }
+    .logo img{
+        width: 12vw;
+    }
+    #search{
+        width: auto;
+        height: auto;
+    }
+    .btn{
+        padding: 6px 11px;
+        font-size: 13px;
+    }
+    .btn-sm{
+        height: 28px;
+        font-size: 11px;
+        margin: 6px auto;
+    }
+    .nav-list li a{
+        font-size: 16px;
+    }
+    .rightnav{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 50px;
+    }
+    .box-main{
+        max-width: 100%;
+    }
+    .textbig{
+        font-size: 40px;
+    }
+        .text-center{
+            font-size: 19px;
+        }
+        .section{
+            flex-direction: column-reverse;
+        }
+        
+        .secright img{
+            width: 100px;
+            height: 100px;
+        }
+        .secright{
+            font-size: 11px;
+            padding: 5px;
+            flex-direction: column;
+
+        }
+
+        .secright img{
+            width: 162px;
+            height: 160px;
+          }
+        
+        .sectiontag {
+            font-size: 18px;
+            font-size: 18px;
+margin: 11px;
+          }
+          .form-input{
+            margin: 7px auto;
+            font-size: 14px;
+            padding: 5px;
+            width: 68vw;
+            border: 2px solid white;
+          }
+          footer{
+              height: 3vh;
+              font-size: 14px;
+          }
+          
+        }
